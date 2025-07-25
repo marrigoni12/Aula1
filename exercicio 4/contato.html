@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header><h1>Página de receitas</h1></header>
+    <nav>
+        <h2>Menu</h2>
+        <a href="index.html">home</a>
+        <a href="receita.html">receita</a>
+        <a href="video.html">vídeo</a>
+        <a href="contato.html">contato</a>
+    </nav>
+    <h2>Entre em contato com a nossa equipe</h2>
+    <form action="" method="get" name="contato">
+        <fieldset>
+            <legend>Entre em contato</legend>
+            <label for="nome">Nome:</label>
+            <input type="text" name="txtNome" id="txtNome" placeholder="insira o seu nome" required autofocus/>
+            <br/>
+            <label for="telefone">Contato:</label>
+            <input type="text" name="txtCont" id="txtCont" placeholder="(DDD)+tel" required/>
+            <br/>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" placeholder="insira seu email" required/>
+            <br/>
+            <label for="estado">Estado:</label>
+            <select>
+                <option value="RJ">RJ</option>
+                <option value="SP">SP</option>
+                <option value="MG">MG</option>
+                <option value="ES">ES</option>
+                <option value="outro">outro</option>
+            </select>
+            <br/>
+            <label for="gosto">Gosto para comida</label>
+            <select id="sabor">
+        
+            <optgroup label="doces">
+                <option value="bolo de cenoura">Bolo de cenoura</option>
+                <option value="bolo de chocolate">Bolo de chocolate</option>
+                <option value="Brigadeiro">Brigadeiro</option>
+                <option value="Doce de leite">Doce de leite</option>
+                <option value="outro">outro</option>
+            </optgroup>
+            <optgroup label="salgado">
+                <option value="pastel">Pastel</option>
+                <option value="pão de queijo">Pão de queijo</option>
+                <option value="Folhado">Folhado</option>
+                <option value="Empada">Empada</option>
+                <option value="outro">outro</option>
+            </optgroup>
+            </select>
+            <br/>
+            <label for="assunto">O que deseja falar:</label>
+            <input type="text" name="txtAss" id="txtAss" size="300"/>
+            <br/>
+            <input type="submit" value="Salvar"/>
+           
+        </fieldset>
+    </form>
+
+    <footer>Maria Antonia Arrigoni 24/07/2025</footer>
+</body>
+</html>
